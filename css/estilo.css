@@ -1,6 +1,6 @@
 :root{
-    --fondo_header: cornflowerblue ;
-    --color_header: aqua;
+    --fondo_header: rgb(177, 100, 126) ;
+    --color_header: rgb(197, 99, 164);
 
     --fondo_titulo: #0a33ed;
     --color-titulo: white;
@@ -28,19 +28,19 @@
 
 
 body {
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(../assets/fondo/round.png);
     
 }
 
 header {
-    background-color: cornflowerblue;
-    color: aqua;
+    background-color: rgb(245, 193, 234);
+    color: rgb(88, 27, 42);
     text-align: center;
 }
 
 .titulosuperior{
-    background-color:  #0a33ed;
+    background-color:  #aa266f;
     padding: 10px;
     letter-spacing: 5px;
 
@@ -50,7 +50,7 @@ header {
 
 .titulocentro {
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     margin: 26px;  
     word-spacing: 8px;
@@ -60,8 +60,8 @@ header {
 
 .tituloinferior{
     font-size: 20px;
-    background-color: #0db7f7;
-    color: white;
+    background-color: #751a39;
+    color: rgb(48, 18, 18);
     text-align: right;
     padding: 10px;
 }
